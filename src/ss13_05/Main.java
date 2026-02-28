@@ -120,5 +120,13 @@ public class Main {
                 }
             }
         }
+        System.out.println("sort patient list");
+        for (Patient patient : patients) {
+            System.out.println("id: "+patient.getId());
+            System.out.println("tên: "+patient.getFullName());
+            System.out.println("tuổi: "+patient.getAge());
+            System.out.println("chẩn đoán: "+patient.getDiagnosis());
+            System.out.println("------------------------------");
+        }
     }
 }
